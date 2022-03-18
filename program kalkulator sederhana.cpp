@@ -6,7 +6,7 @@ int main() {
   char ulang;
 
   	awal:
-  	cout << "PROGRAM CALCULATOR SEDERHANA" << endl;
+  	cout << "PROGRAM KALKULATOR SEDERHANA" << endl;
   	cout << "\n";
   	cout << "1.perkalian\n";
   	cout << "2.pembagian\n";
@@ -19,9 +19,9 @@ int main() {
   	cout << endl;
   
   	if(pilih == 1){
-    cout << "masukan angka a =";
+    cout << "Masukkan angka a =";
     cin >> a;
-    cout << "masukan angka b =";
+    cout << "Masukkan angka b =";
     cin >> b;
     hasil = a * b;
     cout << a << "x" << b << "=" << hasil;
