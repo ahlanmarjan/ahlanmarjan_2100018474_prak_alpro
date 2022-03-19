@@ -1,4 +1,5 @@
 #include <iostream>
+#include <tunio.h>
 using namespace std;
  
 int main() {
@@ -69,5 +70,6 @@ int main() {
     else{
     cout << "terima kasih anda telah keluar";
     }
+    getch();
     return 0;
 }
